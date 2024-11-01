@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 15, 2016, 3:28:13 PM
+    Author     : rickgonzalez
+*/
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ grid 
+.row {
+  margin: 0 -10px;
+  margin-bottom: 20px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding: 1px;
+}
+
+
+
+body {
+		margin: 0px 0px;
+		padding: 0;
+		font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+		font-size: 14px;
+	}
+
+
+
+.viscalendar {
+		max-width: 680px;
+                max-height: 700px !important;
+                margin: 0 !important;
+                float:left;
+                padding:20px !important;
+	}
+        
+        
+ .booking_Request {
+		width: 460px;
+                margin: 0 auto;
+                float:left;
+                padding:20px;
+	}
+
+       
+ #stripecancelbut1{
+    width:100px; 
+    margin: -10px -20px; 
+    position:relative;
+    top:50%; 
+    left:50%;
+}
+ 
+
+#buttonrow1{
+    width: 80%;
+    height: auto;
+    display:inline-block;
+}
+
+
+@media all and (max-width: 480px){
+    
+    .table {
+       max-height: 700px !important; 
+    }
+    
+    
+    
+    .viscalendar {
+		width: 360px;
+                max-height: 700px !important;
+                height: 500px !important;
+                padding:15px !important;
+                border:3px !important;
+	}
+        
+        .booking_Request {
+		position: relative;
+                max-width: 360px;
+                margin: 0 auto;
+                float:left;
+                padding:15px;
+	}
+}
